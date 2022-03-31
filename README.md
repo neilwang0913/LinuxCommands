@@ -22,4 +22,15 @@ System info about a user. Try: finger root . displays the user's login name, re
 - history | more 
 Show the last (1000 or so) commands executed from the command line on the current account. The "| more" causes the display to stop after each screenful.
 
+- any_command   --help |more 
+Display a brief help on a command (works with most commands). "--help" works similar to DOS "/h" switch. The "more" pipe is needed if the output is longer than one screen.
+
+- man topic 
+Display the contents of the system manual pages (help) on the topic. 
+
+- Info topic
+information pages, which are generally more in-depth than man pages.
+![image](https://user-images.githubusercontent.com/10717008/161159048-c39c1f92-5d46-4ca9-bcf4-8e47e77755d6.png)
+
+
 
