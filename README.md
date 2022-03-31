@@ -30,7 +30,17 @@ Display the contents of the system manual pages (help) on the topic. 
 
 - Info topic
 information pages, which are generally more in-depth than man pages.
-![image](https://user-images.githubusercontent.com/10717008/161159048-c39c1f92-5d46-4ca9-bcf4-8e47e77755d6.png)
+
+- ls -  Short listing of directory contents
+-a        list hidden files
+-d        list the name of the current directory
+-F        show directories with a trailing '/'
+         executable files with a trailing '*'
+-g        show group ownership of file in long listing
+-i        print the inode number of each file
+-l        long listing giving details about files  and directories
+-R        list all subdirectories encountered
+-t        sort by time modified instead of name
 
 
 
